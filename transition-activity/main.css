@@ -2,26 +2,43 @@
 
 body  {
   font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
+  background-color: gainsboro;
 }
 
-.caption {
-  width: 80%;
+.container  {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  width: 100px;
+  height: 100px;
+  background: mediumvioletred;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hamburger div {
+  background-color: rebeccapurple;
+  height: 10px;
+  width: 70%;
   margin: auto;
-  overflow: hidden;
 }
 
-img {
-  width: 80%;
+li {
+  list-style-type: none;
+  margin-bottom: 1em;
 }
 
-button {
-  padding: 1em;
-  margin: .2em;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5em;
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  text-shadow: 1px 1px 2px darkgrey;
 }
-
-button:hover {
-  background-color: cornflowerblue;
+a:hover {
+  color: ghostwhite;
 }
